@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: 'Montserrat';
+}
+
+.big-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.cube{
+    height: 400px;
+    width: 400px;
+    background-color: black;
+}
+
+.yeti-image{
+    position: relative;
+    width: 400px;
+    height: 400px;
+}
+
+.btn-container{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-top: 8vh;
+    
+}
+
+.btn{
+    background-color: white;
+    border: 1px solid;
+    height: 8vh;
+    cursor: pointer;
+}
+
+#water-value{
+    margin-top: 10px;
+}
